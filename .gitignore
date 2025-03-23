@@ -1,0 +1,38 @@
+# Flatpak build artifacts
+*.flatpak
+*.flatpakref
+*.flatpakrepo
+*.flatpakbundle
+
+# Build directories
+/build
+/app
+/deploy
+
+# Flatpak build cache
+/.flatpak-builder
+/.flatpak-builder-cache
+/.flatpak-builder-checkout
+/.flatpak-builder/downloads
+
+# GNOME Builder temporary files
+/.cache
+/.flatpak-builder/home
+/.flatpak-builder/ccache
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Dependency directories
+node_modules/
+target/
+dist/
